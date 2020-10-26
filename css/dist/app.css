@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: "Roboto", sans-serif;
+}
+*:focus {
+  outline: 0;
+}
+
+body {
+  background: #C6ECEA;
+  padding: 50px;
+}
+
+.components--discount {
+  width: 526px;
+  height: 140px;
+  background: #2C698D;
+  border-radius: 15px;
+  padding: 35px;
+  box-shadow: 0 20px 15px -20px rgba(198, 236, 234, 0.25);
+}
+.components--discount a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.components--discount a h4 {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 20px;
+}
+.components--discount a h6 {
+  font-weight: normal;
+  font-size: 16px;
+}
+.components--discount a h6 b {
+  font-size: 18px;
+}
+.components--discount a .next-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 44px;
+  background: #1B5E85;
+  padding: 7px;
+}
+.components--discount2 {
+  display: flex;
+  width: 553px;
+  height: 150px;
+  background: #2C698D;
+  border-radius: 15px;
+  padding: 35px 35px 35px 22px;
+  box-shadow: 0 20px 15px -20px rgba(198, 236, 234, 0.25);
+}
+.components--discount2 a {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.components--discount2 a .icon-discount {
+  height: 84px;
+  width: 84px;
+  border-radius: 84px;
+  background: #fff;
+  margin-right: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.components--discount2 a .side-container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.components--discount2 a .side-container h4 {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 20px;
+}
+.components--discount2 a .side-container h6 {
+  font-weight: normal;
+  font-size: 16px;
+  max-width: 275px;
+}
+.components--discount2 a .side-container h6 b {
+  font-size: 18px;
+}
+.components--discount2 a .side-container .next-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 44px;
+  background: #1B5E85;
+  padding: 7px;
+}
+.components--promote {
+  width: 498px;
+  height: 124px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 20px 15px -20px rgba(198, 236, 234, 0.25);
+}
+.components--promote a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 30px;
+  color: #000;
+}
+.components--promote a h4 {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 20px;
+}
+.components--promote a h6 {
+  font-weight: normal;
+  font-size: 16px;
+}
+.components--promote a h6 b {
+  font-size: 18px;
+}
+.components--promote a .close-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 44px;
+  background: #E3F6F5;
+  padding: 7px;
+}
+.components--categories {
+  width: 395px;
+  height: 397px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  padding: 25px;
+}
+.components--categories ul {
+  margin: -15px 0px;
+}
+.components--categories li {
+  padding: 15px;
+  margin: 15px 0px;
+  border-bottom: 1px solid #E5E5E5;
+}
+.components--categories li:last-child {
+  border-bottom: none;
+}
+.components--categories li a {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.components--categories li a .icon-category {
+  height: 44px;
+  width: 44px;
+  background: #fff;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.components--categories li a .side-container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  line-height: 30px;
+  color: #272643;
+}
+.components--categories li a .side-container h4 {
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.components--categories li a .side-container h6 {
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(39, 38, 67, 0.7);
+}
+.components--categories li a .side-container .next-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 44px;
+  background: #E3F6F5;
+  padding: 7px;
+}
+.components--radio-component {
+  width: 359px;
+  height: 88px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  padding: 15px;
+}
+.components--radio-component .radio-input {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 500ms background-color ease-in-out 300ms color ease-in-out;
+}
+.components--radio-component .radio-input label {
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height: 58px;
+  border-radius: 10px;
+  color: #000;
+}
+.components--radio-component .radio-input input {
+  display: none;
+}
+.components--radio-component .radio-input input:checked + .radio-btn {
+  background: #2C698D;
+  transition: 500ms background-color ease-in-out, 300ms color ease-in-out;
+  color: #fff;
+}
+.components--product-image {
+  width: 426px;
+  height: 409px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+.components--product-image a {
+  width: 100%;
+  height: 100%;
+}
+.components--product-image a img {
+  width: 100%;
+  height: 100%;
+}
+.components--product-image .icon-heart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  border-radius: 44px;
+  background: #fff;
+  top: 10px;
+  right: 10px;
+}
+.components--product-image .bottom-lines {
+  position: absolute;
+  height: 3px;
+  width: 100px;
+  background: transparent;
+  bottom: 21px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 -2.5px;
+}
+.components--product-image .bottom-lines span {
+  position: absolute;
+  margin: 0 2.5px;
+  width: 15px;
+  height: 3px;
+  background: #FFF;
+  border-radius: 7px;
+}
+.components--product-image .bottom-lines span .active {
+  position: absolute;
+  width: 30px;
+  background: #2C698D;
+}
+
+.divider {
+  margin-bottom: 50px;
+}
